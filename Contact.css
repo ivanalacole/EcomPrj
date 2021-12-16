@@ -4,6 +4,7 @@
 }
 body {
   height: 100%;
+  background-color: rgb(249, 249, 243);
 }
 header {
   background-color: white;
@@ -36,13 +37,14 @@ nav li a {
 p {
   padding-left: 21%;
   font-family: Didot, serif;
+  color:black;
 }
 #contact {
-  background-color: white;
+  background-color: rgb(249, 249, 243);
 }
 
 #contact h2 {
-  color: #ffffff;
+  color:black;
   text-align: center;
   font-size: 3rem;
   margin-bottom: 30px;

@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  color: black;
+  background-color: rgb(249, 249, 243);
 }
 header {
   background-color: white;
@@ -27,7 +27,6 @@ nav ul {
 }
 
 nav li a {
-  /* text-decoration-style: ; */
   padding: 1rem;
   font-size: 2rem;
   color: black;
@@ -39,6 +38,7 @@ nav li a {
   margin: 5%;
   grid-gap: 10px;
   justify-items: center;
+  background-color: rgb(249, 249, 243);
 }
 .gridpack-item {
   text-align: center;
