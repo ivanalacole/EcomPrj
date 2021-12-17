@@ -46,7 +46,7 @@ nav li a {
 img {
   height: 200px;
   width: 250px;
-  display: center;
+  /* display: center; */
   padding-top: 15px;
 }
 .card {
@@ -134,7 +134,6 @@ footer p {
   img {
     height: 70px;
     width: 70px;
-    display: center;
     padding-top: 15px;
   }
   .card {

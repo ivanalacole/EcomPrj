@@ -39,7 +39,6 @@ nav li a {
   height: 90vh;
   background-image: url("Ecom Design2.JPG");
   background-repeat: repeat-x;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5));
 }
 .hero-container {
   background-image: url("Ecom Design.PNG");
@@ -63,7 +62,6 @@ footer p {
   color: black;
   justify-items: center;
 }
-
 /* Style all font awesome icons */
 .fa {
   font-size: 30px;
@@ -78,6 +76,13 @@ footer p {
   width: 70px;
 }
 @media screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    width:100vw;
+  }
   nav ul {
     display: flex;
     align-items: center;
@@ -101,7 +106,6 @@ footer p {
     height: 90vh;
     background-image: url("Ecom Design2.JPG");
     background-repeat: repeat-x;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5));
   }
   .hero-container {
     background-image: url("Screen Shot 2021-12-15 at 11.33.25 PM.png");
