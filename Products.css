@@ -3,21 +3,21 @@
   padding: 0;
 }
 body {
-  background-color: rgb(249, 249, 243);
+  background-color: #f2efeb;
 }
 header {
-  background-color: white;
+  background-color:#f2efeb;
   padding-top: 0px;
 }
 
 nav {
   display: flex;
-  background-color: rgb(249, 249, 243);
+  background-color: #f2efeb;
   justify-content: space-between;
   padding: 1rem;
   top: 0;
   height: 40px;
-  border-bottom: 5px solid black;
+  border-bottom: 1px solid #304945;
 }
 nav ul {
   display: flex;
@@ -25,20 +25,36 @@ nav ul {
   padding-left: 37%;
   list-style: none;
 }
+nav li {
+  Font-family: 'Saira Condensed';
+}
+nav li a {
+  /* text-decoration-style: ; */
+  padding: 1rem;
+  font-family: 'Saira Condensed';
+  font-size: 2rem;
+  color: #304945;
+  align-items: center;
+  text-decoration: none;
+}
 
 nav li a {
   padding: 1rem;
   font-size: 2rem;
-  color: black;
+  color: #304945;
   align-items: center;
 }
+nav li a:hover {
+  color: darkorange;
+  }
+  
 .grid-Container {
   display: grid;
   grid-template-columns: auto auto auto;
   margin: 5%;
   grid-gap: 10px;
   justify-items: center;
-  background-color: rgb(249, 249, 243);
+  background-color: #f2efeb;
 }
 .gridpack-item {
   text-align: center;
@@ -58,7 +74,7 @@ img {
   width: 300px;
 }
 .card:hover {
-  box-shadow: 0px 8px 16px 2px black;
+  box-shadow: 0px 8px 16px 2px #304945;
 }
 
 button {
@@ -75,9 +91,9 @@ button:hover {
 .footer {
   display: flex;
   /* align-items: center; */
-  background-color: rgb(249, 249, 243);
+  background-color: #f2efeb;
   padding: 1rem;
-  border-top: 5px solid rgb(20, 9, 11);
+  border-top: 1px solid #304945;
   padding: 1.5rem;
   font-size: 1rem;
 }
@@ -85,7 +101,7 @@ button:hover {
 footer p {
   padding-left: 10%;
   margin: 20px;
-  color: black;
+  color: #304945;;
   justify-items: center;
 }
 
